@@ -1,0 +1,41 @@
+:root{
+    --heroBgdClr: #FFB30E;
+    --heroBgdClrd:rgb(63, 45, 5);
+    --heroBgdClrt:rgba(255, 179, 14, 0.168);
+    --hardOrangeClr: #F17228;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+
+}
+
+#Hero-Section{
+    height: 100%;
+    background-color: var(--heroBgdClr);
+}
+
+.FlashCards {
+    background-color: transparent;
+    border-radius: 15px;
+}
+
+.HDIWsection{
+    background-image: linear-gradient(var(--heroBgdClrt) , transparent);
+}
+
+.Title{
+    color: var(--hardOrangeClr);
+}
+
+.card{
+    border: 0;
+    /* height: 285px; */
+}
+
+.CarBg{
+    background-color: var(--heroBgdClrd);
+}
